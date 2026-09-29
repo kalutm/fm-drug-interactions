@@ -1,0 +1,35 @@
+# Virtual environments (uv defaults to .venv)
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Astral tools & Linters
+.ruff_cache/
+.mypy_cache/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Builds and distributions
+build/
+dist/
+*.egg-info/
+*.egg
+
+# OS & Editor files
+.vscode/
+.idea/
+.DS_Store
